@@ -19,13 +19,14 @@
 		.center {
 			margin: 0 auto;
 		}
+		.clearfix:after{content: ".";display: block;clear:both;height: 0;overflow: hidden;visibility: hidden;}
 
 
 		.header {
-			width: 100%;
+			width: 100%;height: 72px;
 		}
 		.header-border {
-			width: 1300px;height: 72px;padding: 0 15px;
+			width: 1270px;height: 72px;padding: 0 15px;
 		}
 		.header-logo {
 			margin-right: 10px;display: inline-block;
@@ -76,6 +77,23 @@
 		.header .right-item  a:hover {
 			color: red;
 		}
+		
+		
+		.main{width: 100%;height: 2000px;background-size: cover;background-color: #fff}
+		.banner-box {width: 1300px;height: 444px;box-shadow: 0 2px 8px 0;padding-top: 32px}
+		.banner-content {width: 1252px;height: 444px;}
+		.menuContent {width: 236px;height: 432px;float: left;background-color: #2b333b;border-bottom-left-radius: 4px;font-weight: 400;padding-top: 12px;}
+		.menuContent .item{width: 224px;height: 60px;line-height: 60px;font-size: 12px;padding-left: 12px;cursor: pointer;}
+		.group{width: 182px;height: 60px;color: rgba(255,255,255,.6);font-size: 14px;}
+		.menuContent .image{margin-left: 15px;padding-top: 3px;display: inline-block;vertical-align: top;}
+		.bannerContent {width: 1016px;height: 444px;float: left;}
+		.bannerContent .image {width: 1016px;height: 316px;background-image: url(./images/photo6.jpg);}
+		.bannerContent .item-box {width: 1016px;height: 128px;padding: 0 18px;overflow: hidden;}
+		.bannerContent .item {width: 190px;height: 128px;display: inline-block;text-align: center;vertical-align: top;}
+		.bannerContent .top-text {width: 36px;height: 36px;margin-top: 20px;margin-left: 75px;}
+		.bannerContent .middle-text {width: 190px;height: 21px;color: #07111B;font-size: 14px;letter-spacing: 1px;margin-top: 4px;}
+		.bannerContent .bottom-text {width: 190px;height: 16px;color: #93999F;font-size: 12px;line-height: 16px;margin-top: 2px;font-weight: 400; }
+		.actual-recommend {}
 
 
 
@@ -119,6 +137,120 @@
 			</li>
 		</ul>
 	</div>
+</div>
+
+<div class="main">
+	<div class="banner-box center">
+		<div class="banner-content center clearfix">
+			<div class="menuContent">
+				<div class="item">
+					<a href="http:www.baidu.com">
+						<div class="group center">前沿/区块链/人工智能
+							<div class="image">
+								<img src="./images/photo5.png"/>
+							</div>
+						</div>
+					</a>					
+				</div>
+				<div class="item">
+					<a href="http:www.baidu.com">
+						<div class="group center">前端/小程序/JS
+							<div class="image">
+								<img src="./images/photo5.png"/>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="http:www.baidu.com">
+						<div class="group center">后端/JAVA/Python
+							<div class="image">
+								<img src="./images/photo5.png"/>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="http:www.baidu.com">
+						<div class="group center">移动/Android/iOS
+							<div class="image">
+								<img src="./images/photo5.png"/>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="http:www.baidu.com">
+						<div class="group center">云计算/大数据/容器
+							<div class="image">
+								<img src="./images/photo5.png"/>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="http:www.baidu.com">
+						<div class="group center">运维/测试/数据库
+							<div class="image">
+								<img src="./images/photo5.png"/>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="http:www.baidu.com">
+						<div class="group center">UI设计/3D动画/游戏
+							<div class="image">
+								<img src="./images/photo5.png"/>
+							</div>
+						</div>
+					</a>
+				</div>	
+			</div>
+			<div class="bannerContent">
+				<div class="image"></div>
+				<div class="item-box">
+					<div class="item">
+						<a href="http:www.baidu.com">
+							<div class="top-text"><img src="./images/photo7.png"/></div>
+							<div class="middle-text">Web前端工程师</div>
+							<div class="bottom-text">互联网时代最火爆的技术</div>
+						</a>
+					</div>
+					<div class="item">
+						<a href="http:www.baidu.com">
+							<div class="top-text"><img src="./images/photo7.png"/></div>
+							<div class="middle-text">Java工程师</div>
+							<div class="bottom-text">综合就业排名第一</div>
+						</a>
+					</div>
+					<div class="item">
+						<a href="http:www.baidu.com">
+							<div class="top-text"><img src="./images/photo7.png"/></div>
+							<div class="middle-text">Android工程师</div>
+							<div class="bottom-text">移动设备市场份额第一</div>
+						</a>
+					</div>
+					<div class="item">
+						<a href="http:www.baidu.com">
+							<div class="top-text"><img src="./images/photo7.png"/></div>
+							<div class="middle-text">PHP工程师</div>
+							<div class="bottom-text">世界上最好的语言</div>
+						</a>
+					</div>
+					<div class="item">
+						<a href="http:www.baidu.com">
+							<div class="top-text"><img src="./images/photo7.png"/></div>
+							<div class="middle-text">iOS工程师</div>
+							<div class="bottom-text">可能是世界上最好用的系统</div>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="actual"></div>
 </div>
 
 	
