@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css">
+	body {padding: 0;margin: 0;width: 100%;}
+	ul {padding: 0;margin: 0}
+	.content-center {margin: 0 auto;}
+	.clearfix:after {content: ".";display: block;clear: both;height: 0;overflow: hidden;visibility: hidden;}
+	a {text-decoration: none;}
+	a:link {color: gray;}
+	a:visited {color: gray;}
+
+
+	.header {width: 1200px;padding: 0 10px 0 15px;}
+	.menuBar {width: 820px;height: 72px;float: left;}
+	.menuBar .logo {width: 130px;height: 72px;margin-right: 20px;display: inline-block;}
+	.menuBar ul {display: inline-block;list-style: none;font-size: 0;vertical-align: top;}
+	.menuBar li {display: inline-block;color: #4D555D;font-size: 16px;line-height: 72px;padding: 0 15px;}
+	.menuBar a:hover {color: black;}
+	.menuBar .last-item {padding: 0 10px 0 15px;}
+	.menuBar .item-image {vertical-align: top;margin-top: 15px;}
+
+	.menuBar .search {width: 180px;height: 48px;margin-top: 12px;margin-left: 10px;border-bottom: 1px solid gray;display: inline-block;vertical-align: top;}
+	.menuBar .search-content {width: 140px;display: inline-block;}
+	.menuBar .search-text {width: 140px;padding: 12px 0;font-size: 12px;line-height: 24px;display: inline-block;}
+	.menuBar .text-content {padding: 0 8px;display: inline-block;border-radius: 12px;background-color: #f3f5f7;color: #4D555D;}
+	.header .search-image {display: inline-block;vertical-align: top;margin-top: 12px;padding: 0 6px;}
+
+	.buttonBar {width: 320px;height: 72px;float: right;}
+	.buttonBar ul {height: 72px;display: inline-block;list-style: none;font-size: 0;}
+	.buttonBar  a:hover {color: red;}
+	.buttonBar li {display: inline-block;font-size: 14px;padding: 0 15px;color: #71777d;line-height: 72px;}
+
+	.buttonBar .shop {height: 36px;margin: 18px 0;line-height: 36px;;padding: 0 18px;border: 1px solid #D9DDE1;border-radius: 18px;}
+	.buttonBar .shop-image {margin-right: 8px;vertical-align: top;margin-top: 9px;}
+	
+	.buttonBar .sign {margin-left: 12px;display: inline-block;color: #D9DDE1;vertical-align: top;padding: 0;}
+	.buttonBar .sign a{padding: 0 12px;color: #4D555D;}
+	.buttonBar .sign a:hover {color: red;}
+
+</style>
+<body>
+	<!--头部内容-->
+	<div class="header content-center clearfix">
+		<!--菜单栏-->
+		<div class="menuBar">
+			<div class="logo">
+				<a href="https://imooc.com">
+					<img src="./rewrite-images/photo2.png"/>
+				</a>
+			</div>
+			<ul>
+				<li><a href="https://imooc.com">免费课程</a></li>
+				<li><a href="https://imooc.com">职业路径</a></li>
+				<li><a href="https://imooc.com">实战</a></li>
+				<li><a href="https://imooc.com">猿问</a></li>
+				<li><a href="https://imooc.com">手记</a></li>
+				<li class="last-item"><a href="https://imooc.com">找工作<img class="item-image" src="./rewrite-images/photo3.png"></a></li>
+			</ul>
+			<div class="search">
+				<div class="search-content">
+					<div class="search-text">
+						<div class="text-content">前端入门</div>
+						<div class="text-content">Java基础</div>
+					</div>
+				</div>
+				<div class="search-image"><img src="./rewrite-images/photo4.png"></div>
+			</div>
+		</div>
+		<!--按钮栏-->
+		<div class="buttonBar">
+			<ul>
+				<li>
+					<a href="https://imooc.com">下载App</a>
+				</li>
+				<li class="shop">
+					<a href="https://imooc.com"><img class="shop-image" src="./rewrite-images/photo5.png"/> 购物车</a>
+				</li>
+				<li class="sign">
+					<a href="https://imooc.com">登录</a>/<a href="https://imooc.com">注册</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
