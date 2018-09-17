@@ -69,6 +69,34 @@
 
 	.bannerContent .text-top {font-size: 14px;color: #07111B;letter-spacing: 1px;margin-top: 4px}
 	.bannerContent .text-bottom {font-size: 12px;color: #93999F;line-height: 16px;margin-top: 2px;font-weight: 400;}
+	
+	.project-box {height: 411px;box-shadow: 0 2px 8px 0 rgba(7,17,27,.06);background-color: #fff;}
+	.project-content {width: 1152px;height: 327px;padding: 36px 0 48px;}
+	.item-title {font-size: 14px;color: #93999F;letter-spacing: 6px;line-height: 36px;text-align: center;font-weight: 400;}
+	.title-leftImage {width: 56px;height: 36px;display: inline-block;vertical-align: bottom;background-image: url(./rewrite-images/photo8.png);background-position: center 0;background-size: 100%;margin-right: 24px;}
+	.item-title em{font-size: 20px;font-weight: 600;color: #4D555D;margin: 0 3px;font-style: normal;}
+	.title-rightImage {margin-left: 24px;background-position: center -36px;margin-right: 0;}
+	.item-content {margin-top: 24px;margin-left: -18px;}
+	.item-box {float: left;margin-left: 18px;border-radius: 4px;margin-bottom: 12px;width: 216px;height: 252px;}
+	.item-box .image-box {position: relative;width: 216px;height: 120px;}
+	.item-box .image {width: 216px;height: 120px;border-radius: 8px;}
+	.item-box .coursel-label {position: absolute;bottom: 0;bottom: 6px;left: 8px;font-size: 12px;color: #fff;line-height: 16px;z-index: 3}
+	.item-box .coursel-label label {display: inline-block;background-color: rgba(7,17,27,.4);border-radius: 12px;padding: 4px 8px;margin-bottom: 2px;margin-right: 0;font-weight: 200;}
+	.item-box .coursel-content {padding: 12px 8px;}
+	.coursle-name {font-size: 16px;color: #07111B;max-height: 46px;line-height: 24px;word-wrap:break-word;}
+	.coursle-content .bottom-content{width: 200px;height: 26px;}
+	.bottom-content .top-text{font-size: 12px;color: #93999;line-height: 24px;margin-top: 8px;font-weight: 400}
+	.bottom-content .top-text span{display: inline-block;margin-right: 12px;color: #93999}
+	.bottom-content .top-image {display: inline-block;vertical-align: top;margin-top: 6px;}
+	.bottom-content .top-text .star-box {display: inline-block;margin-right: 0;vertical-align: top;margin-top: 2px;}
+	.bottom-content .coursel-price {font-size: 12px;color: #4D555D;line-height: 20px;}
+	.coursel-star {background-color: #FF005D;position: absolute;border: 2px solid #fff;border-radius: 12px;top: -8px;left: -8px;z-index: 4;font-size: 12px;color: #fff;line-height: 20px;padding: 0 8px;}
+	
+	.Newproject-box {height: 675px;}
+	.Newproject-content {height: 591px}
+	.Newtitle-leftImage {background-position: center -72px;}
+	.Newtitle-rightImage {background-position: center -108px;}
+	.coursel-Newstar {background-color: #FF6C00}
 
 
 </style>
@@ -118,7 +146,8 @@
 	
 	<!--渐变背景-->
 	<div class="bg bg-style">
-	<div class="bg-content bg-style"></div>
+		<div class="bg-content bg-style">
+		</div>
 	</div>
 
 	<!--主体内容-->
@@ -207,7 +236,463 @@
 				</div>
 			</div>
 		</div>
+		
+		<!--实战推荐内容-->
+		<div class="project-box">
+			<div class="project-content content-center">
+				<div class="item-title">
+					<div class="title-leftImage"></div>
+					<em>实</em>
+					/
+					<em>战</em>
+					/
+					<em>推</em>
+					/
+					<em>荐</em>
+					<div class="title-leftImage title-rightImage" ></div>
+				</div>
+				<div class="item-content clearfix">
+					<div class="item-box ">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo9.jpg"/>
+								<div class="coursel-label">
+									<label>Python</label>
+								</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									全网最热Python3入门+进阶 更快上手实际开发
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>初级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											5736
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥366.00</div>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo10.jpg"/>
+								<div class="coursel-label">
+									<label>微服务</label>
+									<label>Spring Cloud</label>
+								</div>
+								<div class="coursel-star">HOT</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									Spring Cloud微服务实战
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>初级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											1904
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥366.00</div>
+									</div>
+								</div>
+							</div>	
+						</a>						
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo11.jpg"/>
+								<div class="coursel-label">
+									<label>算法</label>
+									<label>机器学习</label>
+								</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									Python3入门机器学习 经典算法与应用
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>初级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											1547
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥399.00</div>
+									</div>	
+								</div>
+							</div>	
+						</a>						
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo12.jpg"/>
+								<div class="coursel-label">
+									<label>Vue.js</label>
+								</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									Vue2.5开发去哪儿网APP从零基础入门到实战项目
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>初级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											3113
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥266.00</div>
+									</div>	
+								</div>
+							</div>	
+						</a>
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo13.jpg"/>
+								<div class="coursel-label">
+									<label>Java</label>
+								</div>
+								<div class="coursel-star">HOT</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									Java设计模式精讲 Debug方式+内存分析
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>初级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											544
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥299.00</div>
+									</div>	
+								</div>
+							</div>	
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		<!--新手上课内容-->
+		<div class="project-box Newproject-box">
+			<div class="project-content Newproject-content content-center">
+				<div class="item-title">
+					<div class="title-leftImage Newtitle-leftImage"></div>
+					<em>新</em>
+					/
+					<em>手</em>
+					/
+					<em>上</em>
+					/
+					<em>课</em>
+					<div class="title-leftImage title-rightImage Newtitle-rightImage" ></div>
+				</div>
+				<div class="item-content clearfix">
+					<div class="item-box ">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo14.jpg"/>
+								<div class="coursel-label">
+									<label>微服务</label>
+									<label>Spring Cloud</label>
+								</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									分布式事物实践 解决数据一致性
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>高级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											312
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥348.00</div>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo15.jpg"/>
+								<div class="coursel-label">
+									<label>MySQL</label>
+								</div>
+								<div class="coursel-star coursel-Newstar">NEW</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									MySQL数据库集群-PXC方案
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>高级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											23
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥299.00</div>
+									</div>
+								</div>
+							</div>	
+						</a>						
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo16.jpg"/>
+								<div class="coursel-label">
+									<label>Unty 3D</label>
+								</div>
+								<div class="coursel-star coursel-Newstar">NEW</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									Unty 3D 刚体实现平衡球游戏
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>初级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											535
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥399.00</div>
+									</div>	
+								</div>
+							</div>	
+						</a>						
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo17.jpg"/>
+								<div class="coursel-label">
+									<label>Android</label>
+									<label>C</label>
+								</div>
+								<div class="coursel-star coursel-Newstar">NEW</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									FFmpeg音频视核心技术精讲与实战
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>中级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											8
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥299.00</div>
+									</div>	
+								</div>
+							</div>	
+						</a>
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo18.jpg"/>
+								<div class="coursel-label">
+									<label>Java</label>
+								</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									Java读源码之Netty深入剖析
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>高级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											625
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥299.00</div>
+									</div>	
+								</div>
+							</div>	
+						</a>
+					</div>														
+				</div>
+								<div class="item-content clearfix">
+					<div class="item-box ">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo14.jpg"/>
+								<div class="coursel-label">
+									<label>微服务</label>
+									<label>Spring Cloud</label>
+								</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									分布式事物实践 解决数据一致性
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>高级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											312
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥348.00</div>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo15.jpg"/>
+								<div class="coursel-label">
+									<label>MySQL</label>
+								</div>
+								<div class="coursel-star coursel-Newstar">NEW</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									MySQL数据库集群-PXC方案
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>高级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											23
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥299.00</div>
+									</div>
+								</div>
+							</div>	
+						</a>						
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo16.jpg"/>
+								<div class="coursel-label">
+									<label>Unty 3D</label>
+								</div>
+								<div class="coursel-star coursel-Newstar">NEW</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									Unty 3D 刚体实现平衡球游戏
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>初级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											535
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥399.00</div>
+									</div>	
+								</div>
+							</div>	
+						</a>						
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo17.jpg"/>
+								<div class="coursel-label">
+									<label>Android</label>
+									<label>C</label>
+								</div>
+								<div class="coursel-star coursel-Newstar">NEW</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									FFmpeg音频视核心技术精讲与实战
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>中级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											8
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥299.00</div>
+									</div>	
+								</div>
+							</div>	
+						</a>
+					</div>
+					<div class="item-box">
+						<a href="https://imooc.com">
+							<div class="image-box">
+								<img class="image"  src="./rewrite-images/photo18.jpg"/>
+								<div class="coursel-label">
+									<label>Java</label>
+								</div>
+							</div>
+							<div class="coursel-content">
+								<div class="coursle-name  ">
+									Java读源码之Netty深入剖析
+								</div>
+								<div class="bottom-content">
+									<div class="top-text">
+										<span>实战</span>
+										<span>高级</span>
+										<span>
+											<img class="top-image" src="./rewrite-images/photo13.png"/>
+											625
+										</span>
+										<span class="star-box"><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/><img src="./rewrite-images/photo14.png"/></span>
+										<div class="coursel-price">￥299.00</div>
+									</div>	
+								</div>
+							</div>	
+						</a>
+					</div>														
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
