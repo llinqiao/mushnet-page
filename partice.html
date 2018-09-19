@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<style type="text/css">
-	a:link{color: blue}
-	a:visited {color: red}
-	a:hover {color: gray}
-	</style>
+    <title>首页</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        body{background:#eee;}
+        *{padding:0;margin:0;}
+        .main{width:1200px;margin:50px auto;}
+        .main::after{content:"";display:block;clear:both;}
+        .main .column-item{width:1200px;}/*不用设置高度*/
+        .main .mg0{margin-right:0;}
+        .main .column-item .box{float:left;width:292px;/*=(1200-30)/4 = 292.5*/padding:0 5px;}/*关键点，因为column-item不设置高度，所以只要设置float:left;那么所有的box就会向左边浮动，得到所需的4分列效果*/
+        .main .column-item .pl0{padding-left:0;}/*头尾两边都要清掉相应以便的padding,不然不会得到4分等列效果*/
+        .main .column-item .prl0{padding-right:0;}
+        .footer{height:50px;width:1200px;margin:50px auto;background:blue;clear:both;font-size:40px;color:#fff;text-align: center;}
+    </style>
 </head>
 <body>
-<a href="">dasdas</a>
+    <div class="main">
+        <div class="column-item">
+            <div class="box pl0">
+                <div style="height:150px;background:blue;">1</div>
+                <div style="height:110px;background:rgb(12, 192, 192);margin-top:10px;">2</div>
+            </div>
+        </div>
+        <div class="column-item">
+            <div class="box">
+                <div style="height:170px;background:rgb(133, 12, 106);">2</div>
+                <div style="height:60px;background:rgb(212, 149, 12);margin-top:10px;">1</div>
+            </div>
+        </div>
+        <div class="column-item">
+            <div class="box">
+                <div style="height:55px;background:red;">2</div>
+                <div style="height:240px;background:pink;margin-top:10px;">3</div>
+            </div>
+        </div>
+        <div class="column-item mg0">
+            <div class="box prl0">
+                <div style="height:75px;background:green;">3</div>
+                <div style="height:123px;background:pink;margin-top:10px;">3</div>
+            </div>
+        </div>
+    </div>
+  
 </body>
 </html>
